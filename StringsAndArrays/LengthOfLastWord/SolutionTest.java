@@ -24,4 +24,10 @@ public class SolutionTest {
         assertEquals(6, solution.lengthOfLastWord("luffy is still joyboy"));
     }
 
+    @Test
+    public void lengthOfLastWordFour() {
+        Solution solution = new Solution();
+        assertEquals(3, solution.lengthOfLastWord("Today is a nice day"));
+    }
+
 }
