@@ -15,6 +15,7 @@ Output: 2
 
 
 Constraints:
-* n == nums.length 
-* 1 <= n <= 5 * 104 
-* -109 <= nums[i] <= 109
+- n == nums.length 
+- 1 <= n <= 5 * 104 
+- -10^9 <= nums[i] <= 10^9
+- The input is generated such that a majority element will exist in the array.

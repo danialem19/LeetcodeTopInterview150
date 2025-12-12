@@ -15,4 +15,19 @@ public class Solution {
         }
         return - 1;
     }
+
+    public int majorityElement_option2(int[] nums) {
+        int count = 0, candidate = 0;
+
+        for (int num : nums) {
+            if (count == 0) {
+                candidate = num;
+            }
+            count += (num == candidate) ? 1 : -1;
+        }
+
+        return candidate;
+    }
+
+
 }
